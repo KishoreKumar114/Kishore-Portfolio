@@ -29,7 +29,7 @@ const Navbar = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
     link.href = '/Kishore_Resume.pdf'; // Your existing file
-    link.download = 'Kishore_Kumar_Resume.pdf'; // Download name
+    link.download = 'Kishore_Resume.pdf'; // Download name
     link.click();
   };
 
